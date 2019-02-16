@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="1" > 
+<listeners>
+       <listener class-name="com.aa.connectme.listeners.TestCaseListener">
+       </listener>
+</listeners>
+ 
+
+<test name="Test01">
+   <parameter name="BrowserName" value="Chrome"></parameter>   
+   <parameter name="Environment" value="Stage"></parameter>  
+   <parameter name="TestResult" value="ResultOutputPath"></parameter>
+     
+	   <classes>
+    <!--       <class name="com.aa.connectme.defects.DE61358_Not_able_to_search_using_sender_role_name_message_content"></class> 
+          <class name="com.aa.connectme.defects.DE62178_Message_contentexisteven_aftermessage_hasbeen_sent"></class> 
+          <class name="com.aa.connectme.defects.DE62181_Unable_to_send_message_through_flight_topic"></class> 
+          <class name="com.aa.connectme.defects.DE64528_We_are_not_able_to_send_the_messages_by_hitting_ENTER_button"></class> 
+         <class name="com.aa.connectme.defects.DE67095_Searched_messages_for_any_topic_not_vanishing_after_clicking_different_topic"></class> 
+            <class name="com.aa.connectme.defects.DE67390_Messages_are_not_retrieving_back_even_after_canceling_Search_results"></class>  -->
+           
+             
+              <!-- <class name="com.aa.connectme.Gate.TC42947_Gate_mode_topics_panel"></class>
+               <class name="com.aa.connectme.Gate.TC43302_Gate_Mode_Flight_Topics"></class>
+                <class name="com.aa.connectme.Gate.TC43365_Gate_Mode_display_flights_time_range"></class>
+                 <class name="com.aa.connectme.Gate.TC43753_Verify_auto_subscription_of_flight"></class>
+                  <class name="com.aa.connectme.Gate.TC43754_Verify_auto_subscription_of_gate"></class>  -->
+              <!--     <class name="com.aa.connectme.Gate.TC60378_Verify_once_flight_out_from_gate_receiving_OUT_banner_with_grey_color"></class> -->
+                 <!--     <class name="com.aa.connectme.Gate.TC60379_Verify_once_my_current_flight_OUT_next_flight_moves_into_currentflight_panel"></class> -->
+                  
+                   <!--   <class name="com.aa.connectme.header.TC42943_Afterrebootingsystem_Station_Gateno_shouldbelastlogin"></class> -->
+                  <!--     <class name="com.aa.connectme.header.TC42946_GATE_MVP_UI_Gate_Mode_Header"></class>
+                    <class name="com.aa.connectme.header.TC44322_Manual_logout"></class>
+                     <class name="com.aa.connectme.header.TC55567_ComingSoonLink"></class> 
+                    <class name="com.aa.connectme.header.TC58561_Verifyclickingon_Prioritybellpriority_Messagesdisplaying_Not"></class>
+                     <class name="com.aa.connectme.header.TC58562_VerifyTheMessagecard"></class> 
+                    <class name="com.aa.connectme.header.TC58563_Verifythe_Rolemessage_Sender_And_MessagetimingsForpriority_Messages"></class>
+                     <class name="com.aa.connectme.header.TC58819_Verifyiflistofpriority_Messagesordered_Bymost_Recentat_Top"></class>
+                      <class name="com.aa.connectme.header.TC58820_VerifyScrollbar_Bellnotification_preview_automatedmsgs_Gateflight_Topics"></class>
+                 
+                 <class name="com.aa.connectme.messaging.TC42958_Gate_Mode_Message_Panel"></class>
+                  <class name="com.aa.connectme.messaging.TC42958_VerifyMessagePanel"></class>
+                   <class name="com.aa.connectme.messaging.TC43301_Verify_readonly_messages_received"></class>
+                    <class name="com.aa.connectme.messaging.TC43303_Gate_Mode_Message_Panel_Layout_Template"></class>
+                     <class name="com.aa.connectme.messaging.TC43756_GATEMVP_UIGateModeUnable_acknowledgemessages"></class>
+                      <class name="com.aa.connectme.messaging.TC44314_Verify_send_messages_for_the_topics_conversations_with_priority_settings"></class>
+                       <class name="com.aa.connectme.messaging.TC44319_UI_Agent_Mode_Gate_Msg_Read_receipt"></class>
+                       <class name="com.aa.connectme.messaging.TC44321_Verify_participants_list"></class>
+                       <class name="com.aa.connectme.messaging.TC58561_Verify_clicking_Priority_bell_icon_list_priority_messages_are_displaying_or_not"></class>
+                       <class name="com.aa.connectme.messaging.TC60696_Verify_only_last_4hoursmessages_arebeingdisplayed_onmessage_panel"></class> -->
+                       <class name="com.aa.connectme.messaging.Verify_Role_BasedCommunication"></class>
+                      <!--    <class name="com.aa.connectme.messaging.Verify_Message_GateandCCH"></class>
+                       <class name="com.aa.connectme.messaging.CancelledFlightTDEC"></class>
+                       
+                       
+                        <class name="com.aa.connectme.personallogin.Launch_GATE_application_and_verify_the_full_page_content"></class>
+                        <class name="com.aa.connectme.personallogin.TC42424_Create_Personal_Login_Valid"></class>
+                         <class name="com.aa.connectme.personallogin.TC42430_Create_Personal_Login_InValid"></class>
+                          <class name="com.aa.connectme.personallogin.TC42431_Create_Personal_Login_Blank"></class>  -->
+             
+             
+      </classes> 
+	</test>   
+</suite> 
+
